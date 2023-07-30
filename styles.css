@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --button-color: #167BF7;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #00030C;
+    color: #FFFFFF;    
+    font-family: Inter;
+    font-style: normal;
+}
+
+header{
+    background-image: url("./assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+}
+
+header div{
+    margin: 7.81rem auto 7.75rem 3.38rem;
+}
+
+header img{
+    padding-top: 1.37rem;
+    padding-bottom: 3.38rem; 
+}
+
+.main-text{
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header button{
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 1rem;
+    width: 32rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+
+.botao-principal{
+    background: #167BF7;
+    border: none;
+}
+
+.botao-secundario{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+
+header div p{
+    color: #C0C0C0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second{
+    align-items: center;
+}
+
+.second img{
+    width: 31.125rem;
+    height: 35rem;
+    margin: 5.94rem 0rem 5rem 17.31rem;
+}
+
+.second div{
+    margin-right: 7.5rem;   
+}
+
+.second h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+
+.second p{
+    color: #F9F9F9;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    opacity: 0.8;
+}
