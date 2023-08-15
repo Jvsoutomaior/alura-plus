@@ -27,7 +27,7 @@ header{
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 50fr 50fr;
+    grid-template-columns: 50% 50%;
 }
 
 header div{
@@ -58,12 +58,12 @@ header button{
     color: #FFFFFF;
 }
 
-.botao-principal{
-    background: #167BF7;
+.main-Button{
+    background: var(--button-color);
     border: none;
 }
 
-.botao-secundario{
+.second-Button{
     border: 1px solid #FFFFFF;
     background-color: transparent;
 }
@@ -79,10 +79,16 @@ header div p{
     align-items: center;
 }
 
-.second img{
+.second_img{
     width: 31.125rem;
     height: 35rem;
-    margin: 5.94rem 0rem 5rem 17.31rem;
+
+}
+
+.second img{
+
+    justify-self: center;
+    margin-left: 12rem;
 }
 
 .second div{
@@ -92,13 +98,140 @@ header div p{
 .second h1{
     font-size: 3rem;
     font-weight: 700;
-    line-height: 3.6rem;
+    line-height: 120%;
 }
 
 .second p{
+    margin-right: 10rem;
+}
+
+.description{
     color: #F9F9F9;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 150%;
     opacity: 0.8;
+}
+
+.third{
+    align-items: center;
+}
+
+.third div{
+    width: 36.75rem;
+    margin: 0rem 0.75rem 0rem 7.75rem;
+    justify-self: center;
+}
+
+.third img{
+    width: 31rem;
+    height: 21.185rem;
+    margin-left: 3.63rem;
+}
+
+.third button{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: var(--button-color);
+
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+
+    /* width: 32rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem; */
+    
+}
+
+.image_adjust{
+    width: 34.1875rem;
+    height: 20.25rem;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin:5rem 20rem;
+}
+
+.last h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 120%; /* 3.6rem */
+}
+
+.last p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%; /* 2.4rem */
+}
+
+footer{
+    text-align: center;
+
+}
+
+footer img{
+    margin-bottom: 1rem;
+}
+
+footer ul{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%; 
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.list{
+    margin: 1.5rem 9.88rem;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer p{
+    color: #C0C0C0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text1{
+    margin: 2rem;
+}
+
+.text2{
+    margin: 0rem 7.5rem 6.2rem 7.5rem;
+}
+
+a:hover{
+    color: var(--button-color);
+}
+
+button{
+    transition: all 0.2s ease;
+}
+
+button:active{
+    transform: scale(0.96);
+}
+
+button:hover{
+    background-color: #304f75;
+    cursor: pointer;
 }
